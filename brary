@@ -1,0 +1,327 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700"
+    />
+
+    <title>Galileo Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#f9f9fb] group/design-root overflow-x-hidden" style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <div class="gap-1 px-6 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col w-80">
+            <div class="flex h-full min-h-[700px] flex-col justify-between bg-[#f9f9fb] p-4">
+              <div class="flex flex-col gap-4">
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-center gap-3 px-3 py-2 rounded-full bg-[#ebe9f1]">
+                    <div class="text-[#121019]" data-icon="House" data-size="24px" data-weight="fill">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M224,115.55V208a16,16,0,0,1-16,16H168a16,16,0,0,1-16-16V168a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8v40a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V115.55a16,16,0,0,1,5.17-11.78l80-75.48.11-.11a16,16,0,0,1,21.53,0,1.14,1.14,0,0,0,.11.11l80,75.48A16,16,0,0,1,224,115.55Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-[#121019] text-sm font-medium leading-normal">Home</p>
+                  </div>
+                  <div class="flex items-center gap-3 px-3 py-2">
+                    <div class="text-[#121019]" data-icon="Book" data-size="24px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M208,24H72A32,32,0,0,0,40,56V224a8,8,0,0,0,8,8H192a8,8,0,0,0,0-16H56a16,16,0,0,1,16-16H208a8,8,0,0,0,8-8V32A8,8,0,0,0,208,24Zm-8,160H72a31.82,31.82,0,0,0-16,4.29V56A16,16,0,0,1,72,40H200Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-[#121019] text-sm font-medium leading-normal">Books</p>
+                  </div>
+                  <div class="flex items-center gap-3 px-3 py-2">
+                    <div class="text-[#121019]" data-icon="MagnifyingGlass" data-size="24px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-[#121019] text-sm font-medium leading-normal">Search</p>
+                  </div>
+                  <div class="flex items-center gap-3 px-3 py-2">
+                    <div class="text-[#121019]" data-icon="BookmarkSimple" data-size="24px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M184,32H72A16,16,0,0,0,56,48V224a8,8,0,0,0,12.24,6.78L128,193.43l59.77,37.35A8,8,0,0,0,200,224V48A16,16,0,0,0,184,32Zm0,177.57-51.77-32.35a8,8,0,0,0-8.48,0L72,209.57V48H184Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-[#121019] text-sm font-medium leading-normal">Bookmarks</p>
+                  </div>
+                  <div class="flex items-center gap-3 px-3 py-2">
+                    <div class="text-[#121019]" data-icon="User" data-size="24px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                        <path
+                          d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="text-[#121019] text-sm font-medium leading-normal">Profile</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:p-4">
+                <div
+                  class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4"
+                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://cdn.usegalileo.ai/sdxl10/8ab6ef11-9d78-47ca-aaa7-0bf8fb7fd1eb.png");'
+                >
+                  <div class="flex flex-col gap-2 text-center">
+                    <h1
+                      class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+                    >
+                      Welcome to Brary
+                    </h1>
+                    <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                      Where your next favorite story is just a page away
+                    </h2>
+                  </div>
+                  <label class="flex flex-col min-w-40 h-14 w-full max-w-[480px] @[480px]:h-16">
+                    <div class="flex w-full flex-1 items-stretch rounded-xl h-full">
+                      <div
+                        class="text-[#65578e] flex border border-[#d7d3e4] bg-[#f9f9fb] items-center justify-center pl-[15px] rounded-l-xl border-r-0"
+                        data-icon="MagnifyingGlass"
+                        data-size="20px"
+                        data-weight="regular"
+                      >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                          <path
+                            d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <input
+                        placeholder="Search for books, authors, genres"
+                        class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#121019] focus:outline-0 focus:ring-0 border border-[#d7d3e4] bg-[#f9f9fb] focus:border-[#d7d3e4] h-full placeholder:text-[#65578e] px-[15px] rounded-r-none border-r-0 pr-2 rounded-l-none border-l-0 pl-2 text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal"
+                        value=""
+                      />
+                      <div class="flex items-center justify-center rounded-r-xl border-l-0 border border-[#d7d3e4] bg-[#f9f9fb] pr-[7px]">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#371f7d] text-[#f9f9fb] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                        >
+                          <span class="truncate">Search</span>
+                        </button>
+                      </div>
+                    </div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-[#121019] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Featured this week</h2>
+            <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+              <div class="flex items-stretch p-4 gap-3">
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl flex flex-col"
+                    style='background-image: url("https://cdn.usegalileo.ai/sdxl10/b6109daf-2e15-46af-b11e-3bab1ddcaeab.png");'
+                  ></div>
+                  <div>
+                    <p class="text-[#121019] text-base font-medium leading-normal">The Night Circus</p>
+                    <p class="text-[#65578e] text-sm font-normal leading-normal">Erin Morgenstern</p>
+                  </div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl flex flex-col"
+                    style='background-image: url("https://cdn.usegalileo.ai/sdxl10/1bc724df-4b5a-4863-8f74-195d4c9d306f.png");'
+                  ></div>
+                  <div>
+                    <p class="text-[#121019] text-base font-medium leading-normal">The Four Winds</p>
+                    <p class="text-[#65578e] text-sm font-normal leading-normal">Kristin Hannah</p>
+                  </div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+                  <div
+                    class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-xl flex flex-col"
+                    style='background-image: url("https://cdn.usegalileo.ai/sdxl10/387f27a8-3ce4-49fc-9d63-b2398f526b5e.png");'
+                  ></div>
+                  <div>
+                    <p class="text-[#121019] text-base font-medium leading-normal">The Invisible Life of Addie LaRue</p>
+                    <p class="text-[#65578e] text-sm font-normal leading-normal">V.E. Schwab</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-[#121019] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Explore by genre</h2>
+            <div class="flex gap-3 p-3 flex-wrap pr-4">
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-[#ebe9f1] pl-4 pr-4">
+                <p class="text-[#121019] text-sm font-medium leading-normal">Fiction</p>
+              </div>
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-[#ebe9f1] pl-4 pr-4">
+                <p class="text-[#121019] text-sm font-medium leading-normal">Graphic Novels</p>
+              </div>
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-[#ebe9f1] pl-4 pr-4">
+                <p class="text-[#121019] text-sm font-medium leading-normal">Mystery &amp; Thriller</p>
+              </div>
+              <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-[#ebe9f1] pl-4 pr-4">
+                <p class="text-[#121019] text-sm font-medium leading-normal">Romance</p>
+              </div>
+            </div>
+            <h2 class="text-[#121019] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">New and trending</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/d0930cbc-fd03-4340-a569-4bf165eed030.png");'
+                ></div>
+                <div>
+                  <p class="text-[#121019] text-base font-medium leading-normal">The Maidens</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Alex Michaelides</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Thriller</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/81dc4595-ba5a-4bbf-a943-222d247ab3d4.png");'
+                ></div>
+                <div>
+                  <p class="text-[#121019] text-base font-medium leading-normal">The Push</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Ashley Audrain</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Psychological Fiction</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/cdacfc9f-deaa-40e0-af32-bdf72f1711f6.png");'
+                ></div>
+                <div>
+                  <p class="text-[#121019] text-base font-medium leading-normal">The Last Thing He Told Me</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Laura Dave</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Domestic Fiction</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/7859fc6a-8243-4b05-80eb-a7938e8507ff.png");'
+                ></div>
+                <div>
+                  <p class="text-[#121019] text-base font-medium leading-normal">The Sanatorium</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Sarah Pearse</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Mystery</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/c0c80101-682a-41b9-a23a-cfd9a7464e89.png");'
+                ></div>
+                <div>
+                  <p class="text-[#121019] text-base font-medium leading-normal">The Silent Patient</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Alex Michaelides</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Psychological Fiction</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/f8a74353-23b0-4564-bdd0-e6d30ee12537.png");'
+                ></div>
+                <div>
+                  <p class="text-[#121019] text-base font-medium leading-normal">The Wife Upstairs</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Rachel Hawkins</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Domestic Fiction</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/2dadd91a-0452-4322-8f6f-c4ddb99ebd19.png");'
+                ></div>
+                <div>
+                  <p class="text-[#121019] text-base font-medium leading-normal">The Guest List</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Lucy Foley</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Mystery</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/4e2ebfa4-d468-4d7a-92f0-80624a00372d.png");'
+                ></div>
+                <div>
+                  <p class="text-[#121019] text-base font-medium leading-normal">The Vanishing Half</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Brit Bennett</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Historical Fiction</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/888d55a3-85c0-4cea-8c75-be3c75cc702e.png");'
+                ></div>
+                <div>
+                  <p class="text-[#121019] text-base font-medium leading-normal">The Giver of Stars</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Jojo Moyes</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Romance</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/ad5c60a7-ecc0-4935-a870-b9a11da67ac6.png");'
+                ></div>
+                <div>
+                  <p class="text-[#121019] text-base font-medium leading-normal">The Light We Lost</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Jill Santopolo</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Romance</p>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-[#121019] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Followed creators' posts</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/2e3cbd74-8818-4ece-b624-3a5431d62f48.png");'
+                ></div>
+                <div>
+                  <p class="text-[#121019] text-base font-medium leading-normal">Post 1</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Creator 1</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/c3860fcd-bfb3-4c33-ab54-da0b826e47be.png");'
+                ></div>
+                <div>
+                  <p class="text-[#121019] text-base font-medium leading-normal">Post 2</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Creator 2</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/113c5401-08be-4d4c-9862-d0a9a1d45d34.png");'
+                ></div>
+                <div>
+                  <p class="text-[#121019] text-base font-medium leading-normal">Post 3</p>
+                  <p class="text-[#65578e] text-sm font-normal leading-normal">Creator 3</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
