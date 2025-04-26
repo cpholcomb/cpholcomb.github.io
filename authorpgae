@@ -1,0 +1,293 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700"
+    />
+
+    <title>Galileo Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#130f24] dark justify-between group/design-root overflow-x-hidden"
+      style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'
+    >
+      <div>
+        <div class="flex items-center bg-[#130f24] p-4 pb-2 justify-between">
+          <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pl-12">Profile</h2>
+          <div class="flex w-12 items-center justify-end">
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 bg-transparent text-white gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0"
+            >
+              <div class="text-white" data-icon="MagnifyingGlass" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="flex p-4 @container">
+          <div class="flex w-full flex-col gap-4 @[520px]:flex-row @[520px]:justify-between @[520px]:items-center">
+            <div class="flex gap-4">
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-full min-h-32 w-32"
+                style='background-image: url("https://cdn.usegalileo.ai/sdxl10/02f006a2-3c00-45dd-bf79-a23449fc75d8.png");'
+              ></div>
+              <div class="flex flex-col justify-center">
+                <p class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em]">Catherine R.</p>
+                <p class="text-[#988dce] text-base font-normal leading-normal">catherinereads.com</p>
+              </div>
+            </div>
+            <div class="flex w-full max-w-[480px] gap-3 @[480px]:w-auto">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#27204b] text-white text-sm font-bold leading-normal tracking-[0.015em] flex-1 @[480px]:flex-auto"
+              >
+                <span class="truncate">Follow</span>
+              </button>
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#3108ff] text-white text-sm font-bold leading-normal tracking-[0.015em] flex-1 @[480px]:flex-auto"
+              >
+                <span class="truncate">Message</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center gap-4 bg-[#130f24] px-4 min-h-[72px] py-2">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#27204b] shrink-0 size-12" data-icon="PersonSimple" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M128,80A32,32,0,1,0,96,48,32,32,0,0,0,128,80Zm0-48a16,16,0,1,1-16,16A16,16,0,0,1,128,32ZM230.86,132.12a8,8,0,0,1-11,2.74c-.35-.21-35.11-20.59-83.88-22.67V149l62,69.73a8,8,0,1,1-12,10.62L128,164,70,229.31a8,8,0,1,1-12-10.62L120,149V112.18c-49,2.08-83.52,22.46-83.88,22.68a8,8,0,1,1-8.23-13.72C29.6,120.11,70.45,96,128,96s98.4,24.11,100.12,25.14A8,8,0,0,1,230.86,132.12Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="flex flex-col justify-center">
+            <p class="text-white text-base font-medium leading-normal line-clamp-1">2,745 followers</p>
+            <p class="text-[#988dce] text-sm font-normal leading-normal line-clamp-2">Following 32</p>
+          </div>
+        </div>
+        <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Reviews</h2>
+        <div class="flex gap-4 bg-[#130f24] px-4 py-3">
+          <div
+            class="bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg w-[70px]"
+            style='background-image: url("https://cdn.usegalileo.ai/sdxl10/36aaae9e-56a6-4cf4-b7d9-72a377d3fcd8.png");'
+          ></div>
+          <div class="flex flex-1 flex-col justify-center">
+            <p class="text-white text-base font-medium leading-normal">The Atlas Six</p>
+            <p class="text-[#988dce] text-sm font-normal leading-normal">4.5 stars</p>
+            <p class="text-[#988dce] text-sm font-normal leading-normal">Olivia Blake</p>
+          </div>
+        </div>
+        <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">I was not prepared for the ending. I can't wait for the sequel.</p>
+        <div class="flex w-full grow bg-[#130f24] @container py-3">
+          <div class="w-full gap-1 overflow-hidden bg-[#130f24] @[480px]:gap-2 aspect-[3/2] grid grid-cols-[2fr_1fr_1fr]">
+            <div
+              class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none row-span-2"
+              style='background-image: url("https://cdn.usegalileo.ai/sdxl10/d38c5210-c377-4025-bc66-3413ec609407.png");'
+            ></div>
+            <div
+              class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none col-span-2"
+              style='background-image: url("https://cdn.usegalileo.ai/sdxl10/de37bc52-3f89-4664-abde-cfb726087182.png");'
+            ></div>
+            <div
+              class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none col-span-2"
+              style='background-image: url("https://cdn.usegalileo.ai/sdxl10/3aadcc06-7ad0-49f5-b7aa-d6fa2b683e89.png");'
+            ></div>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-4 px-4 py-2 py-2 justify-between">
+          <div class="flex items-center justify-center gap-2 px-3 py-2">
+            <div class="text-[#988dce]" data-icon="Chat" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M216,48H40A16,16,0,0,0,24,64V224a15.84,15.84,0,0,0,9.25,14.5A16.05,16.05,0,0,0,40,240a15.89,15.89,0,0,0,10.25-3.78.69.69,0,0,0,.13-.11L82.5,208H216a16,16,0,0,0,16-16V64A16,16,0,0,0,216,48ZM40,224h0ZM216,192H82.5a16,16,0,0,0-10.3,3.75l-.12.11L40,224V64H216Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#988dce] text-[13px] font-bold leading-normal tracking-[0.015em]">2</p>
+          </div>
+          <div class="flex items-center justify-center gap-2 px-3 py-2">
+            <div class="text-[#988dce]" data-icon="Heart" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M178,32c-20.65,0-38.73,8.88-50,23.89C116.73,40.88,98.65,32,78,32A62.07,62.07,0,0,0,16,94c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,220.66,240,164,240,94A62.07,62.07,0,0,0,178,32ZM128,206.8C109.74,196.16,32,147.69,32,94A46.06,46.06,0,0,1,78,48c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,147.61,146.24,196.15,128,206.8Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#988dce] text-[13px] font-bold leading-normal tracking-[0.015em]">12</p>
+          </div>
+          <div class="flex items-center justify-center gap-2 px-3 py-2">
+            <div class="text-[#988dce]" data-icon="Share" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M229.66,109.66l-48,48a8,8,0,0,1-11.32-11.32L204.69,112H165a88,88,0,0,0-85.23,66,8,8,0,0,1-15.5-4A103.94,103.94,0,0,1,165,96h39.71L170.34,61.66a8,8,0,0,1,11.32-11.32l48,48A8,8,0,0,1,229.66,109.66ZM192,208H40V88a8,8,0,0,0-16,0V208a16,16,0,0,0,16,16H192a8,8,0,0,0,0-16Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#988dce] text-[13px] font-bold leading-normal tracking-[0.015em]">23</p>
+          </div>
+          <div class="flex items-center justify-center gap-2 px-3 py-2">
+            <div class="text-[#988dce]" data-icon="Bookmark" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M184,32H72A16,16,0,0,0,56,48V224a8,8,0,0,0,12.24,6.78L128,193.43l59.77,37.35A8,8,0,0,0,200,224V48A16,16,0,0,0,184,32Zm0,16V161.57l-51.77-32.35a8,8,0,0,0-8.48,0L72,161.56V48ZM132.23,177.22a8,8,0,0,0-8.48,0L72,209.57V180.43l56-35,56,35v29.14Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#988dce] text-[13px] font-bold leading-normal tracking-[0.015em]">3</p>
+          </div>
+        </div>
+        <div class="flex gap-4 bg-[#130f24] px-4 py-3">
+          <div
+            class="bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg w-[70px]"
+            style='background-image: url("https://cdn.usegalileo.ai/sdxl10/ce09c9bb-bd60-471d-bcee-ccd468dc5189.png");'
+          ></div>
+          <div class="flex flex-1 flex-col justify-center">
+            <p class="text-white text-base font-medium leading-normal">The Push</p>
+            <p class="text-[#988dce] text-sm font-normal leading-normal">3.5 stars</p>
+            <p class="text-[#988dce] text-sm font-normal leading-normal">Ashley Audrain</p>
+          </div>
+        </div>
+        <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">This is a tough read. It's like a car crash that you can't look away from.</p>
+        <div class="flex w-full grow bg-[#130f24] @container py-3">
+          <div class="w-full gap-1 overflow-hidden bg-[#130f24] @[480px]:gap-2 aspect-[3/2] grid grid-cols-[2fr_1fr_1fr]">
+            <div
+              class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none row-span-2"
+              style='background-image: url("https://cdn.usegalileo.ai/sdxl10/73892e5c-2e12-484c-a7b3-97871101ac2c.png");'
+            ></div>
+            <div
+              class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none col-span-2"
+              style='background-image: url("https://cdn.usegalileo.ai/sdxl10/36c868e6-2856-423f-b0ad-f464bf973559.png");'
+            ></div>
+            <div
+              class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none col-span-2"
+              style='background-image: url("https://cdn.usegalileo.ai/sdxl10/aa61d606-13c1-4a28-aa7d-108a4fd36bcf.png");'
+            ></div>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-4 px-4 py-2 py-2 justify-between">
+          <div class="flex items-center justify-center gap-2 px-3 py-2">
+            <div class="text-[#988dce]" data-icon="Chat" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M216,48H40A16,16,0,0,0,24,64V224a15.84,15.84,0,0,0,9.25,14.5A16.05,16.05,0,0,0,40,240a15.89,15.89,0,0,0,10.25-3.78.69.69,0,0,0,.13-.11L82.5,208H216a16,16,0,0,0,16-16V64A16,16,0,0,0,216,48ZM40,224h0ZM216,192H82.5a16,16,0,0,0-10.3,3.75l-.12.11L40,224V64H216Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#988dce] text-[13px] font-bold leading-normal tracking-[0.015em]">2</p>
+          </div>
+          <div class="flex items-center justify-center gap-2 px-3 py-2">
+            <div class="text-[#988dce]" data-icon="Heart" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M178,32c-20.65,0-38.73,8.88-50,23.89C116.73,40.88,98.65,32,78,32A62.07,62.07,0,0,0,16,94c0,70,103.79,126.66,108.21,129a8,8,0,0,0,7.58,0C136.21,220.66,240,164,240,94A62.07,62.07,0,0,0,178,32ZM128,206.8C109.74,196.16,32,147.69,32,94A46.06,46.06,0,0,1,78,48c19.45,0,35.78,10.36,42.6,27a8,8,0,0,0,14.8,0c6.82-16.67,23.15-27,42.6-27a46.06,46.06,0,0,1,46,46C224,147.61,146.24,196.15,128,206.8Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#988dce] text-[13px] font-bold leading-normal tracking-[0.015em]">12</p>
+          </div>
+          <div class="flex items-center justify-center gap-2 px-3 py-2">
+            <div class="text-[#988dce]" data-icon="Share" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M229.66,109.66l-48,48a8,8,0,0,1-11.32-11.32L204.69,112H165a88,88,0,0,0-85.23,66,8,8,0,0,1-15.5-4A103.94,103.94,0,0,1,165,96h39.71L170.34,61.66a8,8,0,0,1,11.32-11.32l48,48A8,8,0,0,1,229.66,109.66ZM192,208H40V88a8,8,0,0,0-16,0V208a16,16,0,0,0,16,16H192a8,8,0,0,0,0-16Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#988dce] text-[13px] font-bold leading-normal tracking-[0.015em]">23</p>
+          </div>
+          <div class="flex items-center justify-center gap-2 px-3 py-2">
+            <div class="text-[#988dce]" data-icon="Bookmark" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M184,32H72A16,16,0,0,0,56,48V224a8,8,0,0,0,12.24,6.78L128,193.43l59.77,37.35A8,8,0,0,0,200,224V48A16,16,0,0,0,184,32Zm0,16V161.57l-51.77-32.35a8,8,0,0,0-8.48,0L72,161.56V48ZM132.23,177.22a8,8,0,0,0-8.48,0L72,209.57V180.43l56-35,56,35v29.14Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#988dce] text-[13px] font-bold leading-normal tracking-[0.015em]">3</p>
+          </div>
+        </div>
+        <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Bookshelves</h2>
+        <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+          <div class="flex items-stretch p-4 gap-3">
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg flex flex-col"
+                style='background-image: url("https://cdn.usegalileo.ai/sdxl10/609c562b-336a-4c25-8313-b6989c81e645.png");'
+              ></div>
+              <p class="text-white text-base font-medium leading-normal">To Read</p>
+            </div>
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg flex flex-col"
+                style='background-image: url("https://cdn.usegalileo.ai/sdxl10/7af37ce7-412b-4183-935d-63d284be654a.png");'
+              ></div>
+              <p class="text-white text-base font-medium leading-normal">Read</p>
+            </div>
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg flex flex-col"
+                style='background-image: url("https://cdn.usegalileo.ai/sdxl10/fc8122a9-043b-4aeb-8d33-393e514dad1e.png");'
+              ></div>
+              <p class="text-white text-base font-medium leading-normal">Currently Reading</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="flex gap-2 border-t border-[#27204b] bg-[#1c1736] px-4 pb-3 pt-2">
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 rounded-full text-white" href="#">
+            <div class="text-white flex h-8 items-center justify-center" data-icon="House" data-size="24px" data-weight="fill">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M224,115.55V208a16,16,0,0,1-16,16H168a16,16,0,0,1-16-16V168a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8v40a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V115.55a16,16,0,0,1,5.17-11.78l80-75.48.11-.11a16,16,0,0,1,21.53,0,1.14,1.14,0,0,0,.11.11l80,75.48A16,16,0,0,1,224,115.55Z"
+                ></path>
+              </svg>
+            </div>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#988dce]" href="#">
+            <div class="text-[#988dce] flex h-8 items-center justify-center" data-icon="MagnifyingGlass" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+              </svg>
+            </div>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#988dce]" href="#">
+            <div class="text-[#988dce] flex h-8 items-center justify-center" data-icon="BookOpen" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M224,48H160a40,40,0,0,0-32,16A40,40,0,0,0,96,48H32A16,16,0,0,0,16,64V192a16,16,0,0,0,16,16H96a24,24,0,0,1,24,24,8,8,0,0,0,16,0,24,24,0,0,1,24-24h64a16,16,0,0,0,16-16V64A16,16,0,0,0,224,48ZM96,192H32V64H96a24,24,0,0,1,24,24V200A39.81,39.81,0,0,0,96,192Zm128,0H160a39.81,39.81,0,0,0-24,8V88a24,24,0,0,1,24-24h64Z"
+                ></path>
+              </svg>
+            </div>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#988dce]" href="#">
+            <div class="text-[#988dce] flex h-8 items-center justify-center" data-icon="Bell" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"
+                ></path>
+              </svg>
+            </div>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#988dce]" href="#">
+            <div class="text-[#988dce] flex h-8 items-center justify-center" data-icon="User" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"
+                ></path>
+              </svg>
+            </div>
+          </a>
+        </div>
+        <div class="h-5 bg-[#1c1736]"></div>
+      </div>
+    </div>
+  </body>
+</html>
