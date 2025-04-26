@@ -1,0 +1,215 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700"
+    />
+
+    <title>Galileo Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#130f24] dark justify-between group/design-root overflow-x-hidden"
+      style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'
+    >
+      <div>
+        <div class="flex flex-col gap-2 bg-[#130f24] p-4 pb-2">
+          <div class="flex items-center h-12 justify-end">
+            <div class="flex w-12 items-center justify-end">
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 bg-transparent text-white gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0"
+              >
+                <div class="text-white" data-icon="MagnifyingGlass" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+          <p class="text-white tracking-light text-[28px] font-bold leading-tight">For You</p>
+        </div>
+        <div class="flex gap-3 p-3 overflow-x-hidden">
+          <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#27204b] pl-4 pr-4">
+            <p class="text-white text-sm font-medium leading-normal">Nonfiction</p>
+          </div>
+          <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#27204b] pl-4 pr-4">
+            <p class="text-white text-sm font-medium leading-normal">History</p>
+          </div>
+          <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#27204b] pl-4 pr-4">
+            <p class="text-white text-sm font-medium leading-normal">Science</p>
+          </div>
+          <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#27204b] pl-4 pr-4">
+            <p class="text-white text-sm font-medium leading-normal">Business</p>
+          </div>
+          <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#27204b] pl-4 pr-4">
+            <p class="text-white text-sm font-medium leading-normal">Politics</p>
+          </div>
+          <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#27204b] pl-4 pr-4">
+            <p class="text-white text-sm font-medium leading-normal">Economics</p>
+          </div>
+          <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#27204b] pl-4 pr-4">
+            <p class="text-white text-sm font-medium leading-normal">Philosophy</p>
+          </div>
+          <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#27204b] pl-4 pr-4">
+            <p class="text-white text-sm font-medium leading-normal">Biography</p>
+          </div>
+          <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#27204b] pl-4 pr-4">
+            <p class="text-white text-sm font-medium leading-normal">Self-Improvement</p>
+          </div>
+          <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#27204b] pl-4 pr-4">
+            <p class="text-white text-sm font-medium leading-normal">Productivity</p>
+          </div>
+        </div>
+        <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Recommended for you</h2>
+        <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+          <div class="flex items-stretch p-4 gap-3">
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg flex flex-col"
+                style='background-image: url("https://cdn.usegalileo.ai/sdxl10/d6d281ce-b698-44b4-9f19-7f978e3008bc.png");'
+              ></div>
+              <p class="text-white text-base font-medium leading-normal">The 4-Hour Workweek</p>
+            </div>
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg flex flex-col"
+                style='background-image: url("https://cdn.usegalileo.ai/sdxl10/2a448b5c-df57-4209-a4d6-1c63641b0335.png");'
+              ></div>
+              <p class="text-white text-base font-medium leading-normal">The Psychology of Money</p>
+            </div>
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg flex flex-col"
+                style='background-image: url("https://cdn.usegalileo.ai/sdxl10/d5cb855f-9cb1-4129-a380-3e9152935364.png");'
+              ></div>
+              <p class="text-white text-base font-medium leading-normal">The Lean Startup</p>
+            </div>
+          </div>
+        </div>
+        <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Book Clubs</h2>
+        <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+          <div class="flex items-stretch p-4 gap-3">
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg flex flex-col"
+                style='background-image: url("https://cdn.usegalileo.ai/sdxl10/4f7b2713-d9a5-44ed-865e-8ee03c762640.png");'
+              ></div>
+              <p class="text-white text-base font-medium leading-normal">Tech &amp; Society</p>
+            </div>
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg flex flex-col"
+                style='background-image: url("https://cdn.usegalileo.ai/sdxl10/7314586a-376d-4d62-8358-abf5bc6079e5.png");'
+              ></div>
+              <p class="text-white text-base font-medium leading-normal">AI &amp; Future of Work</p>
+            </div>
+            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+              <div
+                class="w-full bg-center bg-no-repeat aspect-[3/4] bg-cover rounded-lg flex flex-col"
+                style='background-image: url("https://cdn.usegalileo.ai/sdxl10/4b48aba5-4b49-4fd9-b14a-91e63f8bf51b.png");'
+              ></div>
+              <p class="text-white text-base font-medium leading-normal">Climate Change</p>
+            </div>
+          </div>
+        </div>
+        <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">New stories from authors</h2>
+        <div class="flex items-center gap-4 bg-[#130f24] px-4 min-h-[72px] py-2 justify-between">
+          <div class="flex items-center gap-4">
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+              style='background-image: url("https://cdn.usegalileo.ai/sdxl10/089f9745-4f70-4b5d-94b7-051db0af9e99.png");'
+            ></div>
+            <div class="flex flex-col justify-center">
+              <p class="text-white text-base font-medium leading-normal line-clamp-1">The Psychology of Money</p>
+              <p class="text-[#988dce] text-sm font-normal leading-normal line-clamp-2">Morgan Housel</p>
+            </div>
+          </div>
+          <div class="shrink-0"><p class="text-[#988dce] text-sm font-normal leading-normal">2d</p></div>
+        </div>
+        <div class="flex items-center gap-4 bg-[#130f24] px-4 min-h-[72px] py-2 justify-between">
+          <div class="flex items-center gap-4">
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+              style='background-image: url("https://cdn.usegalileo.ai/sdxl10/4629e4a2-cce8-457c-9e60-d1e25505a0c3.png");'
+            ></div>
+            <div class="flex flex-col justify-center">
+              <p class="text-white text-base font-medium leading-normal line-clamp-1">The Lean Startup</p>
+              <p class="text-[#988dce] text-sm font-normal leading-normal line-clamp-2">Eric Ries</p>
+            </div>
+          </div>
+          <div class="shrink-0"><p class="text-[#988dce] text-sm font-normal leading-normal">3d</p></div>
+        </div>
+        <div class="flex items-center gap-4 bg-[#130f24] px-4 min-h-[72px] py-2 justify-between">
+          <div class="flex items-center gap-4">
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+              style='background-image: url("https://cdn.usegalileo.ai/sdxl10/2094366c-010a-463e-8234-0aa7afcfd6b9.png");'
+            ></div>
+            <div class="flex flex-col justify-center">
+              <p class="text-white text-base font-medium leading-normal line-clamp-1">The 4-Hour Workweek</p>
+              <p class="text-[#988dce] text-sm font-normal leading-normal line-clamp-2">Tim Ferriss</p>
+            </div>
+          </div>
+          <div class="shrink-0"><p class="text-[#988dce] text-sm font-normal leading-normal">1w</p></div>
+        </div>
+      </div>
+      <div>
+        <div class="flex gap-2 border-t border-[#27204b] bg-[#1c1736] px-4 pb-3 pt-2">
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 rounded-full text-white" href="#">
+            <div class="text-white flex h-8 items-center justify-center" data-icon="House" data-size="24px" data-weight="fill">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M224,115.55V208a16,16,0,0,1-16,16H168a16,16,0,0,1-16-16V168a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8v40a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V115.55a16,16,0,0,1,5.17-11.78l80-75.48.11-.11a16,16,0,0,1,21.53,0,1.14,1.14,0,0,0,.11.11l80,75.48A16,16,0,0,1,224,115.55Z"
+                ></path>
+              </svg>
+            </div>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#988dce]" href="#">
+            <div class="text-[#988dce] flex h-8 items-center justify-center" data-icon="MagnifyingGlass" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+              </svg>
+            </div>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#988dce]" href="#">
+            <div class="text-[#988dce] flex h-8 items-center justify-center" data-icon="Bookmark" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M184,32H72A16,16,0,0,0,56,48V224a8,8,0,0,0,12.24,6.78L128,193.43l59.77,37.35A8,8,0,0,0,200,224V48A16,16,0,0,0,184,32Zm0,16V161.57l-51.77-32.35a8,8,0,0,0-8.48,0L72,161.56V48ZM132.23,177.22a8,8,0,0,0-8.48,0L72,209.57V180.43l56-35,56,35v29.14Z"
+                ></path>
+              </svg>
+            </div>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#988dce]" href="#">
+            <div class="text-[#988dce] flex h-8 items-center justify-center" data-icon="Users" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M117.25,157.92a60,60,0,1,0-66.5,0A95.83,95.83,0,0,0,3.53,195.63a8,8,0,1,0,13.4,8.74,80,80,0,0,1,134.14,0,8,8,0,0,0,13.4-8.74A95.83,95.83,0,0,0,117.25,157.92ZM40,108a44,44,0,1,1,44,44A44.05,44.05,0,0,1,40,108Zm210.14,98.7a8,8,0,0,1-11.07-2.33A79.83,79.83,0,0,0,172,168a8,8,0,0,1,0-16,44,44,0,1,0-16.34-84.87,8,8,0,1,1-5.94-14.85,60,60,0,0,1,55.53,105.64,95.83,95.83,0,0,1,47.22,37.71A8,8,0,0,1,250.14,206.7Z"
+                ></path>
+              </svg>
+            </div>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#988dce]" href="#">
+            <div class="text-[#988dce] flex h-8 items-center justify-center" data-icon="User" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"
+                ></path>
+              </svg>
+            </div>
+          </a>
+        </div>
+        <div class="h-5 bg-[#1c1736]"></div>
+      </div>
+    </div>
+  </body>
+</html>
